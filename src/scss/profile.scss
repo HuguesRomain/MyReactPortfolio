@@ -1,18 +1,22 @@
 .PicProfile{
   position: absolute;
   border-radius: 100%;
-  width: 20vw;
+  width: 28vw;
+  margin-left: 5vw;
   align-self: flex-start;
   margin-bottom: 50px;
+  transform: translateY(-2vh)
  }
 
 .content__profile{
-  margin-top: 7vh;
-  margin-left: 35vw;
+  margin-left: 40vw;
 }
 
 .profile{
+  font-family: Avenir;
+  font-weight: bold;
   display: flex;
+  margin-top: 5vh;
   flex-direction: column;
   align-content: flex-start;
 }
@@ -22,5 +26,17 @@
 }
 
 .name{
+  color: #494949;
+  font-size: 18px;
   font-weight: bolder;
+}
+
+.email{
+  font-size: 14px;
+  color: #9F9F9F;
+}
+
+.description{
+  color: #494949;
+  line-height: 3vh;
 }

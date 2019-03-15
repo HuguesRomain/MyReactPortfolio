@@ -23,9 +23,6 @@ export default class Profile extends Component {
         <div className='description'>
           {this.state.profile.ProfileData.me.descitpion}
         </div>
-        <ul>
-          <li>salut</li>
-        </ul>
         </div>
       </div>
     )
