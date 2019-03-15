@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
+
+import ProfileData from './data/profileData'
 import Profile from './components/profile';
+import Admin from './components/Admin';
 
 class App extends Component {
   render() {

@@ -1,0 +1,26 @@
+.PicProfile{
+  position: absolute;
+  border-radius: 100%;
+  width: 20vw;
+  align-self: flex-start;
+  margin-bottom: 50px;
+ }
+
+.content__profile{
+  margin-top: 7vh;
+  margin-left: 35vw;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.name, .email, .description {
+  padding-bottom: 1vh;
+}
+
+.name{
+  font-weight: bolder;
+}
