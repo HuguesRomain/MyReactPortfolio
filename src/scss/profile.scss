@@ -1,3 +1,13 @@
+.profile{
+  font-family: Avenir;
+  font-weight: bold;
+  display: flex;
+  margin-top: 3vh;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+
 .PicProfile{
   position: absolute;
   border-radius: 100%;
@@ -12,14 +22,6 @@
   margin-left: 40vw;
 }
 
-.profile{
-  font-family: Avenir;
-  font-weight: bold;
-  display: flex;
-  margin-top: 5vh;
-  flex-direction: column;
-  align-content: flex-start;
-}
 
 .name, .email, .description {
   padding-bottom: 1vh;
@@ -39,4 +41,45 @@
 .description{
   color: #494949;
   line-height: 3vh;
+}
+
+@media (min-width: 768px){
+
+  .PicProfile{
+    margin-left: 10vw;
+    transform: translateY(-4vh);
+    border-radius: 100%;
+    width: 20vw;
+  }
+
+}
+
+@media (min-width: 1200px){
+
+  .profile{
+    margin-top: 4vh;
+  }
+
+  .PicProfile{
+    margin-left: 10vw;
+    transform: translateY(-4vh);
+    border-radius: 100%;
+    width: 10vw;
+  }
+
+  .content__profile{
+    margin-left: 22vw;
+  }
+
+  .name{
+    font-size: 24px;
+  }
+
+  .email{
+    font-size: 17px;
+  }
+
+  .description{
+    font-size: 18px;
+  }
 }

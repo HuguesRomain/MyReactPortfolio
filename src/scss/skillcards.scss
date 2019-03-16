@@ -1,0 +1,29 @@
+.skill__card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40vw;
+  margin-left: 5vw;
+  margin-top: 3vh;
+  background-color: white;
+  border-radius: 4%;
+  font-family: Avenir;
+  font-weight: bold;
+}
+
+.skill__pic{
+  width: 20vw;
+}
+
+.skill__description{
+  font-size: 13px;
+}
+
+.skill__title{
+  font-size: 14px;
+  margin-top: 2vh;
+}
+
+.skill__title, .skill__pic, .skill__description{
+  margin-bottom: 2vh;
+}

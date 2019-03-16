@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ProfileData from '../data/profileData'
+import ProfileData from '../../data/profileData'
 
 
 export default class Profile extends Component {
@@ -11,7 +11,7 @@ export default class Profile extends Component {
     return (
       <div className='profile'>
         <div className='pic'>
-          <img className='PicProfile'  src={require(`../img/${this.state.profile.ProfileData.me.picture}`)} />
+          <img className='PicProfile'  src={require(`../../img/${this.state.profile.ProfileData.me.picture}`)} />
         </div>
         <div className='content__profile'>
         <div className='name'>

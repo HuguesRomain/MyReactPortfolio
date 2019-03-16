@@ -1,0 +1,39 @@
+.icon {
+  color: #8E8E8E;
+  height: 4vh;
+}
+
+.MySkills{
+  display: flex;
+  display: flex;
+  align-items: flex-start;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: bolder;
+  padding-top: 5vh;
+  padding-left: 6vw;
+}
+
+.MySkills__title{
+  font-size: 18px;
+  margin-left: 3vw;
+  margin-top: 1vh;
+}
+
+@media (min-width: 1200px){
+
+  .MySkills{
+    padding-left: 10vw;
+  }
+
+  .icon{
+    height: 4.5vh;
+  }
+
+  .MySkills__title{
+    font-size: 24px;
+    margin-left: 2vw;
+    margin-top: 2vh;
+  }
+
+}
