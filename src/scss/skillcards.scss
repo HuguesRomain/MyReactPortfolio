@@ -5,10 +5,15 @@
   width: 40vw;
   margin-left: 5vw;
   margin-top: 3vh;
+  transition-duration: 0.5s;
   background-color: white;
   border-radius: 4%;
   font-family: Avenir;
   font-weight: bold;
+}
+.skill__card:hover{
+  box-shadow: 0px 5px 40px grey;
+  transform: translateY(-1vh)
 }
 
 .skill__pic{
@@ -29,6 +34,11 @@
 }
 
 @media (min-width: 1200px){
+
+  .skill__title{
+    font-size: 16px;
+    margin-top: 2vh;
+  }
 
   .skill__card{
     width: 10vw;

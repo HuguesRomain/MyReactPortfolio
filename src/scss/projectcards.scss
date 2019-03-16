@@ -1,0 +1,65 @@
+.project__card{
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin-left: 8vw;
+  margin-top: 3vh;
+  transition-duration: 0.5s;
+  background-color: white;
+  border-radius: 4%;
+  font-family: Avenir;
+  font-weight: bold;
+}
+
+.project__pic{
+  position: absolute;
+  width: 15vw;
+  margin-left: 4vw;
+  margin-top: 3vh;
+}
+
+.project__title{
+  font-size: 20px;
+}
+
+.project__text{
+  margin-left: 28vw;
+  margin-top: 3vh;
+}
+
+.project__title, .project__description{
+  margin-bottom: 3vh;
+}
+
+@media (min-width: 768px){
+
+  .project__card{
+    width: 50vw;
+  }
+
+  .project__pic{
+    position: absolute;
+    width: 10vw;
+    margin-left: 4vw;
+    margin-top: 3vh;
+  }
+}
+
+
+@media (min-width: 1200px){
+
+  .project__card{
+    width: 20vw;
+    margin-left: 11vw;
+  }
+
+  .project__text{
+    margin-left: 8vw;
+    margin-top: 3vh;
+  }
+
+  .project__pic{
+    width: 4vw;
+    margin-left: 2vw;
+  } 
+}

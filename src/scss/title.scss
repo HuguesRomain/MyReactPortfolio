@@ -3,7 +3,7 @@
   height: 4vh;
 }
 
-.MySkills{
+.title__content{
   display: flex;
   display: flex;
   align-items: flex-start;
@@ -14,7 +14,7 @@
   padding-left: 6vw;
 }
 
-.MySkills__title{
+.text__title{
   font-size: 18px;
   margin-left: 3vw;
   margin-top: 1vh;
@@ -22,7 +22,7 @@
 
 @media (min-width: 1200px){
 
-  .MySkills{
+  .title__content{
     padding-left: 10vw;
   }
 
@@ -30,7 +30,7 @@
     height: 4.5vh;
   }
 
-  .MySkills__title{
+  .text__title{
     font-size: 24px;
     margin-left: 2vw;
     margin-top: 2vh;

@@ -7,11 +7,10 @@ class Skills extends Component {
     SkillsDataState: {skillsData}
   }
   render () {
-   const skillCards = Object.keys(this.state.SkillsDataState.skillsData.mySkills).map(key => <SkillsCards key={key} details={this.state.SkillsDataState.skillsData.mySkills[key]}></SkillsCards>)
-   console.log(skillCards)
+   const skillCards = Object.keys(this.state.SkillsDataState.skillsData.mySkills).map(key => <SkillsCards key={key} detailsSkills={this.state.SkillsDataState.skillsData.mySkills[key]}></SkillsCards>)
     return (
       <div className="Skills">
-        { skillCards}
+        { skillCards }
       </div>
     )
   }
