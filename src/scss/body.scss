@@ -2,8 +2,15 @@
 
 .content {
   background-color: #F2F4F9;
-  height: 90vh;
+  height: 100vh;
   margin-top: 4vh;
+}
+
+.Skills{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 6vw;
+  justify-content: center;
 }
 
 @media (min-width: 1200px){

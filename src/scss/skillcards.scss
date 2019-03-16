@@ -27,3 +27,15 @@
 .skill__title, .skill__pic, .skill__description{
   margin-bottom: 2vh;
 }
+
+@media (min-width: 1200px){
+
+  .skill__card{
+    width: 10vw;
+    margin-left: 3vw;
+  }
+
+  .skill__pic{
+    width: 5vw;
+  }
+}
