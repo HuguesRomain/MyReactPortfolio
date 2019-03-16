@@ -13,6 +13,12 @@
   justify-content: center;
 }
 
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 6vw; 
+}
+
 @media (min-width: 1200px){
 
   .content {

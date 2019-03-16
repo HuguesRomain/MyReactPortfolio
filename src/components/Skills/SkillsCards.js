@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import skillsData from '../../data/skillsData'
 
 const SkillsCards = ({ detailsSkills }) => {
   return (
