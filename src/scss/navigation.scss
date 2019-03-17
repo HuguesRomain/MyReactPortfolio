@@ -1,5 +1,10 @@
 .navigation{
-  display: none;
+  background-color: $BLUE_NAV;
+  position: fixed;
+  transform: translateY(100vh);
+  display: flex;
+  justify-content: center;
+  height: 10vh;
 }
 
 @media (min-width: 1200px){
@@ -7,8 +12,9 @@
     display: flex;
     position: fixed;
     transform: translateY(-10vh);
+    box-shadow: 2px 5px 10px grey;
     background-color: $BLUE_NAV;
-    transition-duration: 0.19s;
+    transition-duration: 0.20s;
     width: 5vw;
     height: 110vh;
   }

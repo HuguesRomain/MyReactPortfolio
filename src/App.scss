@@ -2,10 +2,16 @@ $TITLE__GREY: #494949;
 $BLUE_NAV: #2E363C;
 
 
+@import './scss/reset.scss';
+
 @import './scss/title.scss'; 
 @import './scss/profile.scss';
-@import './scss/reset.scss';
 @import './scss/body.scss';
+
+
 @import './scss/skillcards.scss';
 @import './scss/projectcards.scss';
-@import './scss/navigation.scss'
+
+
+@import './scss/navigation.scss';
+@import './scss/navElements.scss'

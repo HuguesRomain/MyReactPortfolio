@@ -19,7 +19,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navigation/>
+      <Navigation/>
         <div className="page">
           <div className="profile__content">
           <Profile />

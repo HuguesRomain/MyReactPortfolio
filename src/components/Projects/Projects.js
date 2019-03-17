@@ -8,7 +8,6 @@ class Projects extends Component {
   }
   render () {
   const projectCards = Object.keys(this.state.ProjectsDataState.projectsData.MyProjects).map(key => <ProjectCards key={key} detailsProjects={this.state.ProjectsDataState.projectsData.MyProjects[key]}></ProjectCards>)
-  console.log(projectCards)
     return (
       <div className='projects'>
         { projectCards }
