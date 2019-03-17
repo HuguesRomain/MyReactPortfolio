@@ -1,10 +1,13 @@
 .navigation{
+  z-index: 1;
   background-color: $BLUE_NAV;
   position: fixed;
-  transform: translateY(100vh);
+  transform: translateY(87vh);
   display: flex;
   justify-content: center;
+  opacity: 0.99;
   height: 10vh;
+  width: 100vw;
 }
 
 @media (min-width: 1200px){
