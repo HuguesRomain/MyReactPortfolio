@@ -23,7 +23,7 @@ const SkillsData = {
     skill4: {
       title: 'React',
       mySkillsPic: 'react.png',
-      description: 'Since September 2018'
+      description: 'Since Fabruary 2019'
     },
     skill5: {
       title: 'Sketch',

@@ -57,12 +57,13 @@
 @media (min-width: 1200px){
 
   .profile{
-    margin-top: 4vh;
+    margin-top: 8vh;
+    width: 60vw;
   }
 
   .PicProfile{
-    margin-left: 10vw;
-    transform: translateY(-4vh);
+    margin-left: 2vw;
+    transform: translateY(-4vh) translateX(14vh);
     border-radius: 100%;
     width: 10vw;
   }

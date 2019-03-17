@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.scss';
-
+import Navigation from './components/Nav/Nav'
 import Profile from './components/Profile/Profile';
 import Skills from './components/Skills/Skills'
 import Projects from './components/Projects/Projects'
@@ -19,8 +19,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Navigation/>
         <div className="page">
-          <div className='profile'>
+          <div className="profile__content">
           <Profile />
           </div>
           <div className='content'>

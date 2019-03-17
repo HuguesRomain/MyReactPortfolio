@@ -1,0 +1,23 @@
+.navigation{
+  display: none;
+}
+
+@media (min-width: 1200px){
+  .navigation{
+    display: flex;
+    position: fixed;
+    transform: translateY(-10vh);
+    background-color: $BLUE_NAV;
+    transition-duration: 0.19s;
+    width: 5vw;
+    height: 110vh;
+  }
+
+  .navigation:hover{
+    display: flex;
+    position: fixed;
+    background-color: $BLUE_NAV;
+    width: 10vw;
+    height: 110vh;
+  }
+}
