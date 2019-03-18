@@ -1,5 +1,14 @@
+.nav__elements{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
 .nav__element{
   margin-top: 0.5vh; 
+  display: flex;
+  align-items: center;
+  transition-duration: 0.50s;
 }
 
 .navIcon{
@@ -8,22 +17,21 @@
 }
 
 .navTitle{
-  color: #8E8E8E;
-  font-family: Avenir;
-  font-weight: bold;
+  display: none;
 }
 
 @media (min-width: 1200px){
   .navIcon{
     width: 2.5vw;
-    margin-left: 0.2vw;
+    margin-left: 1vw;
+    transition-duration: 0.30s;
   }
   
   .nav__elements{
-    padding-top: 5vh;
-    padding-right: 0.4vw;
+    padding-top: 7vh;
     display: flex;
     flex-direction: column;
+    padding-right: 0.4vw;
     height: 5vh;
   }
   
@@ -33,8 +41,22 @@
     font-weight: bold;
   }
 
+  .nav__element--second{
+    margin-top: 10vh;
+  }
+
+  .curseur{
+    position: absolute;
+    background-color: #4478FF;
+    height: 7vh;
+    width: 0.3vw;
+    transform: translateX(-2.3vw) translateY(4vh)
+  }
 
   .navTitle{
-  
+    display: none;
+    opacity: 0;
+    padding-right: 0vw;
+    transition-duration: 2s;
   }
 }

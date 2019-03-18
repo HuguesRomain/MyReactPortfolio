@@ -8,10 +8,10 @@ class Navigation extends Component {
     navDataState: {navData}
   }
   render () {
-    const navElements = Object.keys(this.state.navDataState.navData.Navigation).map(key => <NavElements key={key} detailsNav={this.state.navDataState.navData.Navigation[key]}></NavElements>)
     return (
       <div className='navigation'>
-        { navElements }
+        <div className="curseur"></div>
+        <NavElements/>
       </div>
     )
   }

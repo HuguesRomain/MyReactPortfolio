@@ -1,4 +1,5 @@
 .navigation{
+  overflow: hidden;
   z-index: 1;
   background-color: $BLUE_NAV;
   position: fixed;
@@ -28,5 +29,24 @@
     background-color: $BLUE_NAV;
     width: 10vw;
     height: 110vh;
+
+    & .navTitle {
+      display: flex;
+      margin-top: 1.5vh;
+      opacity: 1;
+      font-size: 18px;
+    }
+
+    .curseur{
+      position: absolute;
+      background-color: #4478FF;
+      height: 7vh;
+      width: 0.3vw;
+      transform: translateX(-4.8vw) translateY(4vh)
+    }
+
+    .navIcon{
+      margin-right: 1vw;
+    }
   }
 }

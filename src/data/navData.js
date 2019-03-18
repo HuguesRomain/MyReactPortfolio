@@ -5,7 +5,7 @@ const navData = {
       navIcon: 'home.png',
     },
      item2: {
-      title: 'MyLogBook',
+      title: 'LogBook',
       navIcon: 'logbook.png',
     },
   },
