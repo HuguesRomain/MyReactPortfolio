@@ -15,14 +15,19 @@ function ajaxGet(url, callback) {
   req.send(null);
 }
 
-
-ajaxGet("https://api.github.com/users/HuguesRomain/repos?access_token=03abad12cf96b6ef86b56a52e6b5260e1c1b0776", (reponse)=>{
+/* 
+function abcd(reponse) {
+  var repos = JSON.parse(reponse);
+  console.log(repos)
+} */
+/* 
+ajaxGet("https://api.github.com/users/HuguesRomain/repos?access_token=03abad12cf96b6ef86b56a52e6b5260e1c1b0776", (reponse) => {
   var repos = JSON.parse(reponse);
   console.log(repos)
   var santa = repos[1].created_at;
   console.log(santa);
-
-})
+  repos.then
+}); */
 
 
 
@@ -32,5 +37,7 @@ const GitData = {
     icon: 'repositories.png'
   },
 };
+
+
 
 export default GitData;

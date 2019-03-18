@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import navData from '../../data/navData'
 import NavElements from './NavElements'
-
+import Redirect from 'react-router-dom'
 
 class Navigation extends Component {
   state = {
-    navDataState: {navData}
+    navDataState: {navData},
+    goToLogbook: false,
   }
   render () {
     return (

@@ -7,4 +7,4 @@ const ProfileData = {
   },
 };
 
-export default ProfileData
+export default ProfileData;
