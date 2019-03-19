@@ -1,0 +1,20 @@
+.repo__card-comingsoon{
+    width: 80vw;
+    height: 10vh;
+    margin-left: 3vw;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+    background-color: white;
+    border-radius: 8%;
+    font-family: Avenir;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.repo__card-comingsoon:hover{
+  box-shadow: 0px 5px 40px grey;
+  transform: translateY(-1vh);
+}

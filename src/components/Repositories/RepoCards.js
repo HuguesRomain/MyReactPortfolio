@@ -7,9 +7,9 @@ class RepoCards extends Component {
   }
   render () {
     return (
-      <div className='repo__card'> 
+      <div className='repo__card-comingsoon'> 
         <div className="repo__title"> 
-         
+          coming soon
         </div>
       </div>
     )

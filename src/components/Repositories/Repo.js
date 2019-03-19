@@ -4,7 +4,7 @@ import RepoCards from './RepoCards'
 class Repo extends Component {
   render () {
     return (
-      <div>
+      <div className='repositories'>
         <RepoCards/>
       </div>
     )

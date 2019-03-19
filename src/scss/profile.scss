@@ -14,7 +14,7 @@
   width: 28vw;
   margin-left: 5vw;
   align-self: flex-start;
-  margin-bottom: 50px;
+  margin-top: 2vh;
   transform: translateY(-2vh)
  }
 
@@ -41,6 +41,16 @@
 .description{
   color: #494949;
   line-height: 3vh;
+}
+
+.icon__contact{
+  display: flex;
+  margin-right: 100vw;
+}
+
+.icon__contact--element{
+  height: 7vw;
+  margin-right: 2vw;
 }
 
 @media (min-width: 768px){
@@ -75,6 +85,20 @@
   .name{
     font-size: 24px;
   }
+
+  .icon__contact{
+    display: flex;
+    position: absolute;
+    margin-left: 17vw;
+    margin-top: 0.5vh;
+    transform: translateY(-10vh)
+  }
+
+  .icon__contact--element{
+    width: 2vw;
+    margin-right: 0.5vw;
+  }
+  
 
   .email{
     font-size: 17px;

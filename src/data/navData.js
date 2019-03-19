@@ -2,11 +2,15 @@ const navData = {
   Navigation: {
     item1: {
       title: 'Home',
-      navIcon: 'home.png',
+      navIcon: 'home.svg',
     },
      item2: {
       title: 'LogBook',
-      navIcon: 'logbook.png',
+      navIcon: 'logbook.svg',
+    },
+    item3: {
+      title: 'Contact',
+      navIcon: 'contact.svg',
     },
   },
 };

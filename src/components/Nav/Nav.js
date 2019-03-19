@@ -6,7 +6,6 @@ import Redirect from 'react-router-dom'
 class Navigation extends Component {
   state = {
     navDataState: {navData},
-    goToLogbook: false,
   }
   render () {
     return (

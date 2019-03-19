@@ -19,6 +19,12 @@
   margin-left: 6vw; 
 }
 
+.repositories{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 6vw; 
+}
+
 @media (min-width: 1200px){
   .content {
     background-color: #F2F4F9;

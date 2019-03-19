@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import LogBook from './AppLogBook'
+import AppLogBook from './AppLogBook'
 import * as serviceWorker from './serviceWorker';
 import {
   BrowserRouter as Router,
@@ -11,12 +11,14 @@ import {
 } from 'react-router-dom'
 
 import NotFound from './components/NotFound/NotFound'; 
+import AppContact from './AppContact';
 
 const Root = () => (
   <Router>
     <Switch>
       <Route exact path='/' component={App} />
-      <Route path='/logbook' component={LogBook} />
+      <Route path='/logbook' component={AppLogBook} />
+      <Route path='/contact' component={AppContact} />
       <Route component={NotFound} />
     </Switch>
   </Router>

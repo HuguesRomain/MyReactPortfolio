@@ -12,7 +12,7 @@ import gitData from './data/gitData'
 import Repo from './components/Repositories/Repo';
 
 
-class AppLogBook extends Component {
+class AppContact extends Component {
   state = {
     Skills: {skillsData},
     Projects: {projectsData},
@@ -33,4 +33,4 @@ class AppLogBook extends Component {
   }
 }
 
-export default AppLogBook;
+export default AppContact;
