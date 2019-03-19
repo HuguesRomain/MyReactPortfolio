@@ -22,13 +22,13 @@ class AppLogBook extends Component {
   render() {
     return (
       <div className="App">
-        <Navigation/>
-        <div className="page">
-          <div className='content'>
+        <header className="header__logbook">
+
+        </header>
+        <div className='content'>
            
         </div>
       </div>
-    </div>
     );
   }
 }

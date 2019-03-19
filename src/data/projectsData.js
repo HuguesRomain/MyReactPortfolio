@@ -10,16 +10,19 @@ const ProjectsData = {
       title: 'Quechua',
       projectPic: 'quechua.png',
       description: 'After 2 mounths of integration',
+      link: 'https://quechua-project.netlify.com',
     },
     project2: {
       title: 'Santa Rush',
       projectPic: 'santarush.png',
       description: 'After 2 mounths of JavaScript',
+      link: '',
     },
     project3: {
       title: 'FireCamp',
       projectPic: 'firecamp.png',
       description: 'After few weeks of React Native',
+      link: '',
     },
   },
 };

@@ -22,11 +22,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navigation/>
-        <div className="page">
-          <div className="profile__content">
+          <header className="profile__content">
           <Profile />
-          </div>
+          </header>
           <div className='content'>
             <div className='title__content'>
               <img className='icon' src={require(`./img/icon/${this.state.Skills.skillsData.skillsTitle.skillsicon}`)}/>
@@ -45,7 +43,6 @@ class App extends Component {
             <Repo/>
         </div>
       </div>
-    </div>
     );
   }
 }

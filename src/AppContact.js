@@ -22,7 +22,6 @@ class AppContact extends Component {
   render() {
     return (
       <div className="App">
-        <Navigation/>
         <div className="page">
           <div className='content'>
            

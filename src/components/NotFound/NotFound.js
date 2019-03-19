@@ -1,13 +1,18 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Navigation from '../Nav/Nav'
 
-class NotFound extends Component {
-  render () {
+
+class AppNotFound extends Component {
+  render() {
     return (
-      <div>
-        <p>Page not found</p>
+      <div className="App">
+        <Navigation/>
+        <div className="pageNotFound">
+          <p className='NotFound'>There is nothing here 😰</p>
       </div>
-    )
+    </div>
+    );
   }
 }
 
-export default NotFound
+export default AppNotFound;

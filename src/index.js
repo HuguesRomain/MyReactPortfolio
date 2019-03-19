@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -12,9 +12,12 @@ import {
 
 import NotFound from './components/NotFound/NotFound'; 
 import AppContact from './AppContact';
+import Navigation from './components/Nav/Nav';
 
 const Root = () => (
+  <Fragment>
   <Router>
+  <Navigation/>
     <Switch>
       <Route exact path='/' component={App} />
       <Route path='/logbook' component={AppLogBook} />
@@ -22,6 +25,7 @@ const Root = () => (
       <Route component={NotFound} />
     </Switch>
   </Router>
+  </Fragment>
 )
 
 

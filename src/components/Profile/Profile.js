@@ -18,7 +18,7 @@ export default class Profile extends Component {
           {this.state.profile.ProfileData.me.name}
         </div>
         <div className='email'>
-          {this.state.profile.ProfileData.me.email}
+        <a href="mailto:huguesromainpro@gmail.com">{this.state.profile.ProfileData.me.email}</a>
         </div>
         <div className="icon__contact">
         <a href="https://github.com/HuguesRomain" target="_blank"><img className='icon icon__contact--element' src={require(`../../img/icon/github.svg`)}/></a>
