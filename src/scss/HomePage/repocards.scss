@@ -8,8 +8,7 @@
     background-color: white;
     border-radius: 4px;
     font-family: Avenir;
-    font-weight: bold;
-    border: solid 2px #DCDCDC;
+  
 }
 
 .repo__card:hover{
@@ -17,16 +16,20 @@
     transform: translateY(-1vh);
   }
 
+.bolder{
+    font-weight: bolder;
+}
+
 .repo__list{
     margin: 5%;
 }
 
 .repo__title, .repo__description, .repo__language{
-    font-size: 16px;
+    font-size: 16px
 }
 
 .repo__description, .repo__language{
-    margin-top: 2vh;
+    margin-top: 4vh;
 }
 
 
@@ -41,7 +44,6 @@
         background-color: white;
         border-radius: 4px;
         font-family: Avenir;
-        font-weight: bold;
     }
 }
 

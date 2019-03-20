@@ -1,5 +1,5 @@
 .navigation{
-  overflow: hidden;
+ 
   z-index: 1;
   background-color: $BLUE_NAV;
   position: fixed;
@@ -28,7 +28,7 @@
     display: flex;
     position: fixed;
     background-color: $BLUE_NAV;
-    width: 10vw;
+    width: 13vw;
     height: 110vh;
 
     & .navTitle {

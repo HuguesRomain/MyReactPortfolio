@@ -6,13 +6,13 @@ const RepoCards = ({detailsRepo}) => {
     <div className='repo__card'>
       <ul className='repo__list'> 
         <li className="repo__title"> 
-          Name : {detailsRepo.name}
+          <span className='bolder'>Name:</span> {detailsRepo.name}
         </li>
         <li className="repo__description">
-          Descirption : {detailsRepo.description}
+         <span className='bolder'>Descirption:</span> {detailsRepo.description}
         </li>
         <li className="repo__language">
-          Language : {detailsRepo.language}
+        <span className='bolder'>Language:</span> {detailsRepo.language}
         </li>
       </ul>
     </div>
