@@ -12,7 +12,7 @@ class Repo extends Component {
       .then(json => this.setState({ data: json }));
   }
   render () {
-    const repoCards = Object.keys(this.state.data).slice(0, 5).map(key => <RepoCards key={key} detailsRepo={this.state.data[key]}></RepoCards>)
+    const repoCards = Object.keys(this.state.data).slice(0, 8).map(key => <RepoCards key={key} detailsRepo={this.state.data[key]}></RepoCards>)
     return (
       <div className='repositories'>
         {repoCards}

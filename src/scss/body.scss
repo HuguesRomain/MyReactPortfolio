@@ -15,7 +15,7 @@
 
 .projects{
   display: flex;
-  margin-left: 6vw;
+  margin-left: 5.5vw;
   flex-wrap: wrap;
 }
 
@@ -24,7 +24,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-left: 6vw; 
-  margin-bottom: 5vh;
+  padding-bottom: 15vh; 
 }
 
 @media (min-width: 1200px){
@@ -32,6 +32,12 @@
   body{
     display: flex;
     justify-content: flex-end;
+  }
+
+  .Skills{
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
   }
 
   .content {

@@ -1,3 +1,8 @@
+
+footer{
+  display: none;
+}
+
 footer ul{
   display: flex;
   font-family: Avenir;
@@ -6,7 +11,15 @@ footer ul{
   width: 100vw;
 }
 
+.icon__contactfooter--element{
+  width: 2vw;
+}
+
 @media (min-width: 1200px){
+  footer{
+    display: flex;
+  }
+  
   footer ul{
   margin: 1%;
   margin-top: 5vh;
