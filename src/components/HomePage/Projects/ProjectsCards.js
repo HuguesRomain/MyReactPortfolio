@@ -4,7 +4,8 @@ import {Link} from 'react-router-dom'
 
 const ProjectCards = ({ detailsProjects }) => {
   return (
-   <a href={detailsProjects.link}  target="_blank"><div className='project__card'>
+   <a href={detailsProjects.link}  target="_blank"> 
+     <li className='project__card'>
      <img className='project__pic'  src={require(`../../../img/projects/${detailsProjects.projectPic}`)} />
      <div className="project__text">
          <div className="project__title">
@@ -14,7 +15,7 @@ const ProjectCards = ({ detailsProjects }) => {
             {detailsProjects.description}
           </div>
         </div>
-    </div>
+    </li>
     </a>
   )
 }

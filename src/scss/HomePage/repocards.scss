@@ -1,16 +1,42 @@
-.repo__card-comingsoon{
-    width: 80vw;
-    height: 10vh;
-    margin-left: 3vw;
-    margin-top: 3vh;
+.repo__card{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    width: 80vw;
+    margin-left: 2vw;
+    margin-top: 3vh;
     transition-duration: 0.5s;
     background-color: white;
-    border-radius: 8%;
+    border-radius: 4px;
     font-family: Avenir;
-    font-weight: bolder;
-    font-size: 24px;
+    font-weight: bold;
+}
+
+.repo__list{
+    margin: 5%;
+}
+
+.repo__title, .repo__description, .repo__language{
+    font-size: 16px;
+}
+
+.repo__description, .repo__language{
+    margin-top: 2vh;
+}
+
+
+@media (min-width: 1200px){
+    .repo__card{
+        display: flex;
+        flex-direction: column;
+        width: 20vw;
+        margin-left: 2vw;
+        margin-top: 3vh;
+        transition-duration: 0.5s;
+        background-color: white;
+        border-radius: 4px;
+        font-family: Avenir;
+        font-weight: bold;
+    }
+    
 }
 

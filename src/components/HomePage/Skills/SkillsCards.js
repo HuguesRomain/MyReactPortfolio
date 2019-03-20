@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 const SkillsCards = ({ detailsSkills }) => {
   return (
-    <div className='skill__card'>
+    <li className='skill__card'>
       <div className="skill__title">
         {detailsSkills.title}
       </div>
@@ -10,7 +10,7 @@ const SkillsCards = ({ detailsSkills }) => {
       <div className="skill__description">
           {detailsSkills.description}
       </div>
-    </div>
+    </li>
   )
 }
 

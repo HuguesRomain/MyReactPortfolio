@@ -9,9 +9,9 @@ class Skills extends Component {
   render () {
    const skillCards = Object.keys(this.state.SkillsDataState.skillsData.mySkills).map(key => <SkillsCards key={key} detailsSkills={this.state.SkillsDataState.skillsData.mySkills[key]}></SkillsCards>)
     return (
-      <div className="Skills">
+      <ul className="Skills">
         { skillCards }
-      </div>
+      </ul>
     )
   }
 }

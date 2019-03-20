@@ -9,9 +9,9 @@ class Projects extends Component {
   render () {
   const projectCards = Object.keys(this.state.ProjectsDataState.ProjectsData.MyProjects).map(key => <ProjectCards key={key} detailsProjects={this.state.ProjectsDataState.ProjectsData.MyProjects[key]}></ProjectCards>)
     return (
-      <div className='projects'>
+      <ul className='projects'>
         { projectCards }
-      </div>
+      </ul>
     )
   }
 }

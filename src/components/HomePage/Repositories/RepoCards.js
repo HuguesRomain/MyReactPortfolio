@@ -2,13 +2,21 @@ import React, { Component } from 'react'
 
 const RepoCards = ({detailsRepo}) => {
   return (
-    <div>
-    <div className='repo__card-comingsoon'> 
-        <div className="repo__title"> 
-          {detailsRepo.name}
-        </div>
-      </div>
+    <a href={detailsRepo.html_url} target="_blank">
+    <div className='repo__card'>
+      <ul className='repo__list'> 
+        <li className="repo__title"> 
+          Name : {detailsRepo.name}
+        </li>
+        <li className="repo__description">
+          Descirption : {detailsRepo.description}
+        </li>
+        <li className="repo__language">
+          Language : {detailsRepo.language}
+        </li>
+      </ul>
     </div>
+    </a>
   )
 }
 
