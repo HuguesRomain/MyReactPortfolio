@@ -1,4 +1,4 @@
-function ajaxGet(url, callback) {
+/* function ajaxGet(url, callback) {
   var req = new XMLHttpRequest();
   req.open("GET", url);
   req.addEventListener("load", function () {
@@ -14,30 +14,28 @@ function ajaxGet(url, callback) {
   });
   req.send(null);
 }
+ */
 
-/* 
-function abcd(reponse) {
+/* function abcd(reponse) {
   var repos = JSON.parse(reponse);
   console.log(repos)
-} */
+}  */
 /* 
-ajaxGet("https://api.github.com/users/HuguesRomain/repos?access_token=03abad12cf96b6ef86b56a52e6b5260e1c1b0776", (reponse) => {
+const GitData = ajaxGet("https://api.github.com/users/HuguesRomain/repos?access_token=03abad12cf96b6ef86b56a52e6b5260e1c1b0776", (reponse) => {
   var repos = JSON.parse(reponse);
-  console.log(repos)
   var santa = repos[1].created_at;
   console.log(santa);
-  repos.then
+
+  machin(repos);
 }); */
 
-
-
-const GitData = {
+ const GitData = {
   GitTitle: {
-    title: 'My last repositories',
+   title: 'My last repositories',
     icon: 'repositories.png'
   },
-};
+ };
 
 
 
-export default GitData;
+export default GitData; 

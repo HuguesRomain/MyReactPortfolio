@@ -10,7 +10,6 @@ class Navigation extends Component {
   render () {
     return (
       <div className='navigation'>
-        <div className="curseur"></div>
         <NavElements/>
       </div>
     )

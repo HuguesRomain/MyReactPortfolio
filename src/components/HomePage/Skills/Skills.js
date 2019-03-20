@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import SkillsCards from '../../components/Skills/SkillsCards'
-import skillsData from '../../data/skillsData'
+import SkillsCards from './SkillsCards'
+import skillsData from '../../../data/skillsData'
 
 class Skills extends Component {
   state = {

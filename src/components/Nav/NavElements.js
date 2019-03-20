@@ -10,6 +10,7 @@ class NavElements extends Component {
   render () {
     return (
       <div className='nav__elements'>
+        <div className="curseur"></div>
       <Link to={"/"}><div className="nav__element">
           <img className='navIcon'  src={require(`../../img/icon/${this.state.NavElements.navData.Navigation.item1.navIcon}`)} />
           <p className='navTitle'>{this.state.NavElements.navData.Navigation.item1.title}</p>

@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Navigation from './components/Nav/Nav'
-import Profile from './components/Profile/Profile';
-import Skills from './components/Skills/Skills'
-import Projects from './components/Projects/Projects'
+import Profile from './components/HomePage/Profile/Profile';
+import Skills from './components/HomePage/Skills/Skills'
+import Projects from './components/HomePage/Projects/Projects'
 
 
 import skillsData from './data/skillsData'
 import projectsData from './data/projectsData'
 import gitData from './data/gitData'
-import Repo from './components/Repositories/Repo';
+import Repo from '././components/HomePage/Repositories/Repo';
 
 
 class App extends Component {
@@ -26,6 +25,7 @@ class App extends Component {
           <Profile />
           </header>
           <div className='content'>
+            <div className="elements">
             <div className='title__content'>
               <img className='icon' src={require(`./img/icon/${this.state.Skills.skillsData.skillsTitle.skillsicon}`)}/>
               <p className='text__title'>{this.state.Skills.skillsData.skillsTitle.title}</p>
@@ -41,6 +41,7 @@ class App extends Component {
               <p className='text__title'>{this.state.Git.gitData.GitTitle.title}</p>
             </div>
             <Repo/>
+          </div>
         </div>
       </div>
     );

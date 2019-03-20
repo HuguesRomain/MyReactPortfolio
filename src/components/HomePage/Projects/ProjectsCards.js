@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import projectsData from '../../data/projectsData'
+
 import {Link} from 'react-router-dom'
 
 const ProjectCards = ({ detailsProjects }) => {
   return (
-   <Link href={detailsProjects.link}><div className='project__card'>
-     <img className='project__pic'  src={require(`../../img/projects/${detailsProjects.projectPic}`)} />
+   <a href={detailsProjects.link}  target="_blank"><div className='project__card'>
+     <img className='project__pic'  src={require(`../../../img/projects/${detailsProjects.projectPic}`)} />
      <div className="project__text">
          <div className="project__title">
          {detailsProjects.title}
@@ -15,7 +15,7 @@ const ProjectCards = ({ detailsProjects }) => {
           </div>
         </div>
     </div>
-    </Link>
+    </a>
   )
 }
 

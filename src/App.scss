@@ -4,15 +4,17 @@ $BLUE_NAV: #2E363C;
 
 @import './scss/reset.scss';
 
-@import './scss/title.scss'; 
-@import './scss/profile.scss';
+
 @import './scss/body.scss';
-@import './scss//notfound.scss';
+@import './scss/notfound.scss';
 
-@import './scss/skillcards.scss';
-@import './scss/projectcards.scss';
-@import './scss/repocards.scss';
+@import './scss/HomePage/title.scss'; 
+@import './scss/HomePage/profile.scss';
+@import './scss/HomePage/skillcards.scss';
+@import './scss/HomePage/projectcards.scss';
+@import './scss/HomePage/repocards.scss';
 
+@import './scss/LogBookPage/LogBookCard.scss';
 
 @import './scss/navigation.scss';
 @import './scss/navElements.scss'

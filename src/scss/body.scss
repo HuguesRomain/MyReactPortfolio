@@ -1,9 +1,9 @@
-
-
 .content {
   background-color: #F2F4F9;
-  height: 200vh;
+  width: 100vw;
   margin-top: 4vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .Skills{
@@ -15,9 +15,10 @@
 
 .projects{
   display: flex;
+  margin-left: 6vw;
   flex-wrap: wrap;
-  margin-left: 6vw; 
 }
+
 
 .repositories{
   display: flex;
@@ -26,11 +27,21 @@
 }
 
 @media (min-width: 1200px){
+
+  body{
+    display: flex;
+    justify-content: flex-end;
+  }
+
   .content {
+    display: flex;
+    flex-direction: column;
     background-color: #F2F4F9;
-    height: 90vh;
     margin-top: 9vh;
-    width: 97vw;
+    width: 100vw;
+  }
+
+  .elements{
     margin-left: 3vw;
   }
 }

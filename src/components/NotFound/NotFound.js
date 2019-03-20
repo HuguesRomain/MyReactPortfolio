@@ -6,9 +6,10 @@ class AppNotFound extends Component {
   render() {
     return (
       <div className="App">
-        <Navigation/>
         <div className="pageNotFound">
+          <div className="content">
           <p className='NotFound'>There is nothing here 😰</p>
+          </div>
       </div>
     </div>
     );

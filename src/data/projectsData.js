@@ -1,4 +1,3 @@
-
 const ProjectsData = {
   ProjectTitle: {
     title: 'My Projects',
@@ -16,13 +15,12 @@ const ProjectsData = {
       title: 'Santa Rush',
       projectPic: 'santarush.png',
       description: 'After 2 mounths of JavaScript',
-      link: '',
+      link: 'https://santarush.netlify.com/',
     },
     project3: {
       title: 'FireCamp',
       projectPic: 'firecamp.png',
       description: 'After few weeks of React Native',
-      link: '',
     },
   },
 };
