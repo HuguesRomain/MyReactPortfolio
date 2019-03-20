@@ -1,0 +1,22 @@
+footer ul{
+  display: flex;
+  font-family: Avenir;
+  font-weight: bold;
+  width: 100vw;
+}
+
+@media (min-width: 1200px){
+  footer ul{
+  margin: 3%;
+  justify-content: space-around;
+  width: 95vw;
+  }
+
+  .icon__contactfooter{
+    display: flex;
+    flex-direction: row; 
+  }
+  .icon__contactfooter--element{
+    width: 2vw;
+  }
+}

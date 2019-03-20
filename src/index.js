@@ -13,6 +13,7 @@ import {
 import NotFound from './components/NotFound/NotFound'; 
 import AppContact from './AppContact';
 import Navigation from './components/Nav/Nav';
+import Footer from './components/Footer';
 
 const Root = () => (
   <Fragment>
@@ -24,6 +25,7 @@ const Root = () => (
       <Route path='/contact' component={AppContact} />
       <Route component={NotFound} />
     </Switch>
+    <Footer/>
   </Router>
   </Fragment>
 )
