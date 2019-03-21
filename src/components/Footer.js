@@ -5,8 +5,8 @@ class Footer extends Component {
     return (
       <footer>
        <ul>
-        <li>Made with 💻 and ❤️ in Paris 👨‍🎨</li>
-        <li>Copyright Hugues Romain 2019</li>
+        <li className='cool__sentence'>Made with <img className='react--element' src={require(`../img/skills/react.png`)}/> and ❤️ in Paris 👨‍🎨</li>
+        <li>© Copyright Hugues Romain 2019</li>
         <li className='icon__contactfooter'>
         <div className='icon__contactfooter--element1'><a href="mailto:huguesromainpro@gmail.com"> <img className='icon__contactfooter--element' src={require(`../img/icon/mail.svg`)}/></a></div>
         <div className='icon__contactfooter--element2'><a href="https://linkedin.com/in/hugues-romain-84245b165/" target="_blank"><img className=' icon__contactfooter--element' src={require(`../img/icon/linkedin.svg`)}/></a></div>
