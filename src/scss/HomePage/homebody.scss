@@ -1,7 +1,5 @@
 .content {
   background-color: #F2F4F9;
-  width: 100vw;
-  margin-top: 4vh;
   display: flex;
   flex-direction: column;
 }
@@ -43,14 +41,16 @@
 
   .projects{
     display: flex;
+    width: 90vw;
     margin-left: 3vw;
     flex-wrap: wrap;
   }
 
   .repositories{
     display: flex;
+    width: 85vw;
     flex-wrap: wrap;
-    margin-left: 3vw; 
+    margin-left: 4.5vw; 
     padding-bottom: 4vh; 
   }
   
@@ -63,6 +63,7 @@
   }
 
   .elements{
-    width: 95vw;
+    width: 90vw;
+    margin-left: 2vw;
   }
 }

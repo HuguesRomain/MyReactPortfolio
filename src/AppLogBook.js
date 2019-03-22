@@ -6,11 +6,10 @@ class AppLogBook extends Component {
   render() {
     return (
       <div className="App">
-        <header className="header__logbook">
-
-        </header>
-           <LogBook/>
-        </div>
+       <div className="content">
+         <LogBook/>
+       </div>
+      </div>
       
     );
   }

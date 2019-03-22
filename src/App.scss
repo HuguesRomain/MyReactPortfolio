@@ -5,9 +5,11 @@ $BLUE_NAV: #2E363C;
 @import './scss/reset.scss';
 
 
-@import './scss/body.scss';
+
 @import './scss/notfound.scss';
 
+
+@import './scss/HomePage/homebody.scss';
 @import './scss/HomePage/title.scss'; 
 @import './scss/HomePage/profile.scss';
 @import './scss/HomePage/skillcards.scss';
