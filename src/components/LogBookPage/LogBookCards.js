@@ -1,14 +1,18 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class LogBookCard extends Component {
-  render () {
-    return (
-      <div className='LogBookCards'>
-        <h2>Title</h2>
-        <p>Story</p>
+const LogBookCard = ({detailsStory}) => {
+  return (
+  <div className='LogBookCards'>
+      <div className="LogBook__elements">
+      <div className="LogBook__date">
+          {detailsStory.Date}
       </div>
-    )
-  }
+      <div className="LogBook__story">
+          {detailsStory.descritpion}
+      </div>
+      </div>
+    </div>
+  )
 }
 
 export default LogBookCard

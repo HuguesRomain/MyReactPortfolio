@@ -1,33 +1,38 @@
 .LogBookCards{
   width: 90vw;
-  height: 100vh;
-
   margin-left: 5vw;
-
-  justify-content: center;
-  align-items: center;
   transition-duration: 0.5s;
   background-color: white;
   border-radius: 4px;
   font-family: Avenir;
   font-weight: bolder;
-  font-size: 24px;
+}
+
+.LogBook__date{
+  color: red;
 }
 
 @media (min-width: 1200px){
 .LogBookCards{
   width: 55vw;
-  height: 100vh;
   margin: 3vw;
   margin-left: 19vw;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  transition-duration: 0.5s;
   background-color: white;
   border-radius: 4px;
   font-family: Avenir;
   font-weight: bolder;
-  font-size: 24px;
+  }
+
+  .LogBook__elements{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 5vh;
+  }
+
+  .LogBook__date{
+    margin-bottom: 3vh;
+    font-size: 18px;
   }
 }

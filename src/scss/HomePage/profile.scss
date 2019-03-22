@@ -3,6 +3,7 @@
   font-family: Avenir;
   font-weight: bold;
   display: flex;
+  background-color: white;
   flex-direction: column;
   align-content: flex-start;
 }
@@ -35,7 +36,6 @@
 
 .email{
   font-size: 14px;
-  color: #9F9F9F;
 }
 
 .description{
@@ -66,8 +66,9 @@
 @media (min-width: 1200px){
 
   .profile{
+    height: 23vh;
     margin-top: 8vh;
-    width: 60vw;
+    width: 90vw;
   }
 
   .PicProfile{
