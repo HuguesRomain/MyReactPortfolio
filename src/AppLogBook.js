@@ -9,10 +9,9 @@ class AppLogBook extends Component {
         <header className="header__logbook">
 
         </header>
-        <div className='content'>
            <LogBook/>
         </div>
-      </div>
+      
     );
   }
 }

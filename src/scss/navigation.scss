@@ -15,7 +15,7 @@
   .navigation{
     display: flex;
     position: fixed;
-    transform: translateY(-10vh);
+    transform: translateY(-10vh) translateX(-5vw);
     box-shadow: 2px 5px 10px grey;
     background-color: $BLUE_NAV;
     padding-top: 3vh;
@@ -29,7 +29,6 @@
     position: fixed;
     background-color: $BLUE_NAV;
     width: 13vw;
-    height: 110vh;
 
     & .navTitle {
       display: flex;

@@ -22,8 +22,13 @@ footer ul{
   footer ul{
   margin: 1%;
   margin-top: 5vh;
+  transform: translateX(-5%);
   justify-content: space-around;
   width: 95vw;
+  }
+
+  footer ul li{
+    margin-right: 11%;
   }
 
   .icon__contactfooter{
@@ -48,6 +53,7 @@ footer ul{
     transform: translateY(-1.5vh)
   }
 
+
   @keyframes  App-logo-spin {
     from {
       transform: rotate(0deg);
@@ -56,5 +62,13 @@ footer ul{
       transform: rotate(360deg);
     }
   }
-  
+
+  @keyframes  Hearth-logo {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 }

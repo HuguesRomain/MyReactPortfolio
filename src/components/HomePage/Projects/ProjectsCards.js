@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-import {Link} from 'react-router-dom'
-
 const ProjectCards = ({ detailsProjects }) => {
   return (
    <a href={detailsProjects.link}  target="_blank"> 

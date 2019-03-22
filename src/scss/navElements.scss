@@ -33,31 +33,28 @@
 @media (min-width: 1200px){
   .navIcon{
     width: 2.5vw;
-    margin-left: 1vw;
     transition-duration: 0.30s;
   }
   
   .nav__elements{
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding-right: 0.4vw;
     padding-top: 10vh;
-    height: 50vh;
+   
   }
   
   .nav__element{
     color: #8E8E8E;
     font-family: Avenir;
     font-weight: bold;
-    transition-duration: 0s;
     margin-left: 0vw;
   }
 
   .nav__element:hover{
     color:  #4478FF;
-    fill: green;
     font-family: Avenir;
     font-weight: bold;
   }
