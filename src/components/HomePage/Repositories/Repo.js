@@ -7,7 +7,7 @@ class Repo extends Component {
     this.state = { data: [] };
   }
   componentDidMount() {
-    fetch(`https://api.github.com/users/HuguesRomain/repos?access_token=67c3c018a9519425d52b7ddccafb382cb20f2f77`)
+    fetch(`https://api.github.com/users/HuguesRomain/repos?access_token=8f5b0b9876137837b39ae7b912261d664179da5c`)
       .then(res => res.json())
       .then(json => this.setState({ data: json }));
   }
