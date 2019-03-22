@@ -1,16 +1,28 @@
 .LogBookCards{
   width: 90vw;
+  margin: 3vw;
   margin-left: 5vw;
-  transition-duration: 0.5s;
+  margin-bottom: 5vw;
+  display: flex;
   background-color: white;
   border-radius: 4px;
   font-family: Avenir;
   font-weight: bolder;
-}
+  }
 
-.LogBook__date{
-  color: red;
-}
+  .LogBook__elements{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 5vh;
+  }
+
+  .LogBook__date{
+    color: red; 
+    margin-bottom: 3vh;
+    font-size: 18px;
+  }
+
 
 @media (min-width: 1200px){
 .LogBookCards{
