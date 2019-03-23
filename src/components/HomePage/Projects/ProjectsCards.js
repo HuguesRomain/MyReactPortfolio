@@ -4,7 +4,7 @@ const ProjectCards = ({ detailsProjects }) => {
   return (
    <a href={detailsProjects.link}  target="_blank"> 
      <li className='project__card'>
-     <img className='project__pic'  src={require(`../../../img/projects/${detailsProjects.projectPic}`)} />
+     <img className='project__pic' alt='projects' src={require(`../../../img/projects/${detailsProjects.projectPic}`)} />
      <div className="project__text">
          <div className="project__title">
          {detailsProjects.title}

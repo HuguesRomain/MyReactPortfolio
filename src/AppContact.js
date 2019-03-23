@@ -8,9 +8,7 @@ class AppContact extends Component {
     return (
       <div className="App">
         <div className="page">
-          <div className='content'>
-           
-        </div>
+        <div className='content'></div>
       </div>
     </div>
     );
