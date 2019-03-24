@@ -15,12 +15,22 @@ import AppContact from './AppContact';
 import Navigation from './components/Nav/Nav';
 import Footer from './components/Footer';
 
+function handleUpdate() {
+  let {
+    action
+  } = this.state.location;
+
+  if (action === 'PUSH') {
+    window.scrollTo(0, 0);
+  }
+}
+
 const Root = () => (
   <Fragment>
   <Router>
   <Navigation/>
     <Switch>
-      <Route exact path='/' component={App} />
+      <Route onUpdate={handleUpdate} exact path='/' component={App} />
       <Route path='/logbook' component={AppLogBook} />
       <Route path='/contact' component={AppContact} />
       <Route component={NotFound} />

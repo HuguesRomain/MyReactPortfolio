@@ -8,13 +8,13 @@ const ProjectsData = {
     project1: {
       title: 'Quechua',
       projectPic: 'quechua.png',
-      description: 'After 2 mounths of integration',
+      description: 'After 2 months of integration',
       link: 'https://quechua-project.netlify.com',
     },
     project2: {
       title: 'Santa Rush',
       projectPic: 'santarush.png',
-      description: 'After 2 mounths of JavaScript',
+      description: 'After 2 months of JavaScript',
       link: 'https://santarush.netlify.com/',
     },
     project3: {

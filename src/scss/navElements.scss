@@ -3,13 +3,13 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin-right: 15vw;
+  margin-left: 2vw;
   margin-top: 3vw;
 }
 
 .nav__element{
   margin-top: 0.5vh; 
-  margin-right: vw;
+  margin-right: 20vw;
   display: flex;
   align-items: center;
   transition-duration: 0.50s;
@@ -42,6 +42,8 @@
     flex-direction: column;
     justify-content: flex-start;
     padding-right: 0.4vw;
+    margin-right: 15vw;
+    margin-left: 0vw;
     padding-top: 10vh;
    
   }
@@ -49,6 +51,7 @@
   .nav__element{
     color: #8E8E8E;
     font-family: Avenir;
+    margin-right: 0vw;
     font-weight: bold;
     margin-left: 0vw;
   }
