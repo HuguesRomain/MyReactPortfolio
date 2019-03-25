@@ -1,5 +1,6 @@
 $TITLE__GREY: #494949;
 $BLUE_NAV: #2E363C;
+$BLUE__CONTENT: #F2F4F9;
 
 
 @import './scss/reset.scss';
@@ -19,6 +20,9 @@ $BLUE_NAV: #2E363C;
 
 @import './scss/LogBookPage/logbookBody.scss';
 @import './scss/LogBookPage/LogBookCard.scss';
+
+@import './scss/ContactPage/form.scss';
+
 
 @import './scss/navigation.scss';
 @import './scss/footer.scss';
