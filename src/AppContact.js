@@ -22,18 +22,21 @@ class AppContact extends Component {
            className='input__name' 
            placeholder='Your name' 
            type="text" name="name" 
-           id=""/>
+           id=""
+           required/>
            <input 
            className='input__email' 
            placeholder='Your e-mail' 
            type="email" name="email" 
-           id=""/>
+           id=""
+           required/>
            <textarea 
            className='input__message' 
            placeholder='Message' 
            type="text" 
            name="message" 
-           id=""/>
+           id=""
+           required/>
           </div>
           <button 
           onSubmit={this.handleSubmit}
