@@ -16,7 +16,7 @@ class AppContact extends Component {
             <p>An advice ? A project ? contact me !</p>
           </div>
         <div className='content'>
-        <form className='contact__form'>
+        <form className='contact__form' action="https://formspree.io/huguesromainpro@gmail.com" method="POST">
           <div className="form__elements">
            <input 
            className='input__name' 

@@ -78,6 +78,10 @@ input{
   text-align: initial;
 }
 
+textarea{
+  resize: none;
+}
+
 @media (min-width: 1200px){
   .contact__form{
     width: 93vw;
