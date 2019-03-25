@@ -24,25 +24,27 @@ class App extends Component {
           <header className="profile__content">
           <Profile />
           </header>
+          <main>
           <div className='content'>
             <div className="elements">
             <div className='title__content'>
-              <img className='icon' src={require(`./img/icon/${this.state.Skills.skillsData.skillsTitle.skillsicon}`)}/>
+              <img className='icon' alt='icon' src={require(`./img/icon/${this.state.Skills.skillsData.skillsTitle.skillsicon}`)}/>
               <p className='text__title'>{this.state.Skills.skillsData.skillsTitle.title}</p>
             </div>
             <Skills/>
             <div className="title__content">
-              <img className='icon' src={require(`./img/icon/${this.state.Projects.projectsData.ProjectTitle.projectsicon}`)}/>
+              <img className='icon' alt='icon' src={require(`./img/icon/${this.state.Projects.projectsData.ProjectTitle.projectsicon}`)}/>
               <p className='text__title'>{this.state.Projects.projectsData.ProjectTitle.title}</p>
             </div>
             <Projects/>
             <div className="title__content">
-              <img className='icon' src={require(`./img/icon/${this.state.Git.gitData.GitTitle.icon}`)}/>
+              <img className='icon' alt='icon' src={require(`./img/icon/${this.state.Git.gitData.GitTitle.icon}`)}/>
               <p className='text__title'>{this.state.Git.gitData.GitTitle.title}</p>
             </div>
             <Repo/>
           </div>
         </div>
+        </main>
       </div>
     );
   }

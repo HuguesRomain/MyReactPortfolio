@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navigation from '../Nav/Nav'
 
 
 class AppNotFound extends Component {
@@ -8,7 +7,7 @@ class AppNotFound extends Component {
       <div className="App">
         <div className="pageNotFound">
           <div className="content">
-          <p className='NotFound'>There is nothing here 😰</p>
+          <p className='NotFound'>There is nothing here <span role='img' aria-label="misstake">😰</span></p>
           </div>
       </div>
     </div>

@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 const RepoCards = ({detailsRepo}) => {
   return (
-    <a href={detailsRepo.html_url} target="_blank">
+    <a href={detailsRepo.html_url} rel="noopener noreferrer" target="_blank">
     <div className='repo__card'>
       <ul className='repo__list'> 
         <li className="repo__title"> 
