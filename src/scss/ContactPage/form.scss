@@ -9,6 +9,14 @@
   font-weight: bold;
 }
 
+.coming__soon{
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: black;
+  position: absolute;
+}
+
 .intro__contact{
   display: flex; 
   align-items: center;

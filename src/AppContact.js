@@ -3,10 +3,13 @@ import './App.scss';
 
 
 class AppContact extends Component {
- 
+  handleSubmit = (event) => {
+    event.preventDefault();
+  }
   render() {
     return (
       <div className="App">
+       <div className="comming__soon"></div>
         <div className="page">
           <div className="intro__contact">
            <p>want to tell me something ?</p>
@@ -33,6 +36,7 @@ class AppContact extends Component {
            id=""/>
           </div>
           <button 
+          onSubmit={this.handleSubmit}
           className='button__send'
           type='submit'>Send !</button>
         </form>
