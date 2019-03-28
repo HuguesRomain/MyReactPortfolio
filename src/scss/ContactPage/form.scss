@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   background-color: $BLUE__CONTENT;
-  padding-bottom: 4vh;
+  padding-bottom: 50vh;
   font-family: Avenir; 
   font-weight: bold;
 }
@@ -85,6 +85,7 @@ textarea{
 @media (min-width: 1200px){
   .contact__form{
     width: 93vw;
+    padding-bottom: 4vh;
   }
 
   .intro__contact{
