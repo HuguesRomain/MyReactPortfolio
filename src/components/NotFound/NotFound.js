@@ -7,7 +7,7 @@ class AppNotFound extends Component {
       <div className="App">
         <div className="pageNotFound">
           <div className="content">
-          <p className='NotFound'>There is nothing here <span role='img' aria-label="misstake">😰</span></p>
+            <p className='NotFound'>There is nothing here <span role='img' aria-label="misstake"> 😰</span></p>
           </div>
       </div>
     </div>
