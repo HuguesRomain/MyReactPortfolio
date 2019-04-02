@@ -9,7 +9,7 @@ const RepoCards = ({detailsRepo}) => {
           <span className='bolder'>Name:</span> {detailsRepo.name}
         </li>
         <li className="repo__description">
-         <span className='bolder'>Descirption:</span> {detailsRepo.description}
+         <span className='bolder'>Description:</span> {detailsRepo.description}
         </li>
         <li className="repo__language">
         <span className='bolder'>Language:</span> {detailsRepo.language}
